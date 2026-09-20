@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusGo｜大學生專屬校園生活平台</title>
+    <!-- 使用 Tailwind CSS v4 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+        --color-warmbg: #FBF9F5;
+        --color-warmcard: #F4EFE6;
+        --color-warmaccent: #C28E62;
+        --color-warmtext: #4A403B;
+        --color-warmborder: #E6DCB8;
+        --font-serif: "Noto Serif TC", serif;
+        --font-sans: "Plus Jakarta Sans", sans-serif;
+      }
+    </style>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-warmbg text-warmtext font-sans antialiased selection:bg-amber-200">
+
+    <!-- Top Navigation / Header Status -->
+    <header class="max-w-3xl mx-auto px-6 py-8 flex justify-between items-center border-b border-warmborder/60">
+        <div class="text-sm tracking-widest text-warmaccent font-semibold uppercase font-sans">
+            CampusGo • 校園生活平台
+        </div>
+        <div class="text-xs text-gray-500 font-sans">
+            發布於 2026年9月19日
+        </div>
+    </header>
+
+    <!-- Main Article Container -->
+    <main class="max-w-3xl mx-auto px-6 py-12">
+        <article class="space-y-8">
+            <div class="space-y-4">
+                <span
+                    class="inline-block px-3 py-1 bg-warmcard text-warmaccent text-xs rounded-full font-medium tracking-wide">
+                    校園生活趨勢
+                </span>
+                <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-[#332B27]">
+                    告別資訊雜亂與高額運費：全方位校園生活圈新提案，讓二手交易與互助網羅一鍵搞定
+                </h1>
+                <p class="text-lg text-gray-600 font-serif italic leading-relaxed">
+                    「學長姐手上有的，剛好是你需要的。」當大學校園成為一座微型城市，我們如何用最有效率的方式，串聯起每一項物資與彼此的技能？
+                </p>
+            </div>
+
+            <!-- Author info / Meta -->
+            <div class="flex items-center space-x-4 py-4 border-y border-warmborder/40">
+                <div
+                    class="w-12 h-12 rounded-full bg-warmaccent/20 flex items-center justify-center font-serif font-bold text-warmaccent text-lg">
+                    社
+                </div>
+                <div>
+                    <div class="font-semibold text-sm text-warmtext">CampusGo 團隊</div>
+                    <div class="text-xs text-gray-500">閱讀時間約 4 分鐘 · 瀏覽次數 <span id="view-count">1280</span></div>
+                </div>
+            </div>
+
+            <!-- Article Body Content -->
+            <div class="font-serif text-lg leading-loose space-y-6 text-[#3E3531]">
+                <p>
+                    每逢開學季、期末考或畢業季，大學校園總是上演著相似的場景：買新原文書讓荷包大出血，用不到的舊書卻只能以極低價格回收；想在校內找人幫忙搬宿舍、組裝家具，或是尋求程式作業指導，卻只能在 Dcard 或
+                    Facebook 社團中大海撈針，承受著資訊碎片化與陌生交易的不安感。
+                </p>
+                <p>
+                    針對這些大學生日常中不斷上演的痛點，一項專屬於大專院校學生的 O2O 循環經濟與互助平台提案於今日正式亮相。該提案打破傳統全台網購的框架，回歸校園生活圈的本質，主打<strong>「二手網 ＋
+                        任務網」</strong>的雙核心架構。
+                </p>
+
+                <h2 class="font-sans font-bold text-2xl text-[#332B27] pt-4 border-t border-warmborder/40">
+                    核心亮點一：校園二手網，物盡其用的永續循環
+                </h2>
+                <p>
+                    在二手交易模組中，平台提供極具直覺性的商品上架與分類機制。學生能輕鬆為用過一學期的教科書、宿舍家電或生活用品拍照、標註書況與價格。
+                </p>
+                <p>
+                    更重要的是，平台結合了<strong>「校園面交圈」</strong>與距離導航概念。系統能精準標示買賣雙方的相對距離（例如「距離您 500
+                    公尺」），並主動推薦校內最安全、最熟悉的固定地標——如圖書館、學生餐廳或系館。這不僅完全免去了外部平台高昂的運費，更讓面交變成一件輕鬆、安全且充滿大學日常感的事。
+                </p>
+
+                <div class="p-6 bg-warmcard rounded-xl my-6 border-l-4 border-warmaccent">
+                    <p class="italic text-base text-gray-700 m-0">
+                        「我們希望減少不必要的物流碳足跡與金錢浪費，讓同校的學長姐與學弟妹，能夠在最短的距離內完成最溫暖的物資傳遞。」
+                    </p>
+                </div>
+
+                <h2 class="font-sans font-bold text-2xl text-[#332B27] pt-4">
+                    核心亮點二：校園任務網，讓技能與時間發揮價值
+                </h2>
+                <p>
+                    除了物品的流動，校園中最珍貴的是學生的「專業技能」與「時間勞力」。許多同學具備外語能力、程式邏輯、活動攝影或設計排版專長，也有人在特定時段擁有空閒。
+                </p>
+                <p>
+                    透過平台嚴格的學生身份認證機制，發案方與接案方能在安全信任的環境下發布與承接任務。不管是期末報告排版協助、外語家教，或是急件代跑、宿舍搬遷，所有需求都在校園內部高效流轉，讓學生的才華與勞動獲得應有的報酬與肯定。
+                </p>
+
+                <h2 class="font-sans font-bold text-2xl text-[#332B27] pt-4">
+                    結語：打造最懂學生的校園生活生態圈
+                </h2>
+                <p>
+                    這項提案不只是解決單一的買賣問題，更企圖重塑大學生在校園中的互助連結。從極低摩擦力的二手直達，到點對點的任務協作，未來更計劃串聯校園周邊生活圈與在地商家，成為陪伴每位學生四年生涯不可或缺的數位夥伴。
+                </p>
+            </div>
+
+            <!-- Reaction / Emoji Bar -->
+            <div class="py-8 border-y border-warmborder/60 flex flex-wrap items-center justify-between gap-4 font-sans">
+                <div class="text-sm font-semibold text-gray-600">覺得這篇提案如何？留下你的心情：</div>
+                <div class="flex items-center space-x-2 sm:space-x-4">
+                    <button onclick="react('heart')"
+                        class="flex items-center space-x-1 px-3 py-2 bg-warmcard hover:bg-amber-100 rounded-full text-sm transition-all shadow-sm cursor-pointer">
+                        <span>❤️</span> <span id="count-heart" class="font-medium">24</span>
+                    </button>
+                    <button onclick="react('clap')"
+                        class="flex items-center space-x-1 px-3 py-2 bg-warmcard hover:bg-amber-100 rounded-full text-sm transition-all shadow-sm cursor-pointer">
+                        <span>👏</span> <span id="count-clap" class="font-medium">18</span>
+                    </button>
+                    <button onclick="react('bulb')"
+                        class="flex items-center space-x-1 px-3 py-2 bg-warmcard hover:bg-amber-100 rounded-full text-sm transition-all shadow-sm cursor-pointer">
+                        <span>💡</span> <span id="count-bulb" class="font-medium">35</span>
+                    </button>
+                    <button onclick="shareArticle()"
+                        class="flex items-center space-x-1 px-4 py-2 bg-warmaccent text-white hover:bg-[#a6754d] rounded-full text-sm transition-all shadow-sm ml-auto cursor-pointer">
+                        <span>🔗</span> <span>分享文章</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Comment Section -->
+            <section class="space-y-6 pt-4 font-sans">
+                <h3 class="font-serif text-2xl font-bold text-[#332B27]">讀者迴響與討論 (<span id="comment-count">3</span>)
+                </h3>
+
+                <!-- New Comment Form -->
+                <form id="comment-form" onsubmit="addComment(event)"
+                    class="space-y-3 bg-warmcard/60 p-4 sm:p-6 rounded-2xl border border-warmborder">
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-600 mb-1 uppercase tracking-wider">你的稱呼 /
+                            身分</label>
+                        <input type="text" id="comment-author" required placeholder="例如：資管系大二同學"
+                            class="w-full px-4 py-2 rounded-lg bg-white border border-warmborder text-sm focus:outline-none focus:ring-2 focus:ring-warmaccent">
+                    </div>
+                    <div>
+                        <label
+                            class="block text-xs font-semibold text-gray-600 mb-1 uppercase tracking-wider">留言內容</label>
+                        <textarea id="comment-text" rows="3" required placeholder="分享你的想法或建議..."
+                            class="w-full px-4 py-2 rounded-lg bg-white border border-warmborder text-sm focus:outline-none focus:ring-2 focus:ring-warmaccent"></textarea>
+                    </div>
+                    <div class="flex justify-end">
+                        <button type="submit"
+                            class="px-5 py-2 bg-warmtext text-white text-sm font-medium rounded-lg hover:bg-black transition-colors cursor-pointer">
+                            送出留言
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Comment List -->
+                <div id="comment-list" class="space-y-4"></div>
+            </section>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer
+        class="max-w-3xl mx-auto px-6 py-12 mt-12 border-t border-warmborder text-center text-xs text-gray-500 font-sans">
+        <p>© 2026 CampusGo 團隊. All rights reserved.</p>
+        <p class="mt-1">本頁面內容為行銷管理課程專題企劃展示使用</p>
+    </footer>
+
+    <!-- JavaScript Interactions -->
+    <script>
+        // 瀏覽人次模擬
+        document.addEventListener("DOMContentLoaded", function () {
+            const key = "campusgo_article_views";
+            let views = parseInt(localStorage.getItem(key) || "1280");
+            views += 1;
+            localStorage.setItem(key, views);
+            document.getElementById("view-count").textContent = views.toLocaleString();
+        });
+
+        // 互動心情
+        const defaultCounts = { heart: 24, clap: 18, bulb: 35 };
+        const savedCounts = JSON.parse(localStorage.getItem('campusgo-reactions') || 'null');
+        const counts = savedCounts || { ...defaultCounts };
+
+        function updateReactionDisplay() {
+            document.getElementById('count-heart').innerText = counts.heart;
+            document.getElementById('count-clap').innerText = counts.clap;
+            document.getElementById('count-bulb').innerText = counts.bulb;
+        }
+
+        function react(type) {
+            counts[type]++;
+            localStorage.setItem('campusgo-reactions', JSON.stringify(counts));
+            updateReactionDisplay();
+        }
+        updateReactionDisplay();
+
+        // 穩定版分享功能（完美支援行動裝置原生分享與剪貼簿備用）
+        async function shareArticle() {
+            if (navigator.share) {
+                try {
+                    await navigator.share({
+                        title: document.title,
+                        url: window.location.href
+                    });
+                } catch (error) {
+                    if (error.name !== 'AbortError') {
+                        console.log('分享取消或失敗', error);
+                    }
+                }
+            } else {
+                try {
+                    await navigator.clipboard.writeText(window.location.href);
+                    alert('文章連結已複製到剪貼簿！');
+                } catch (err) {
+                    alert('複製失敗，請手動複製網址列連結。');
+                }
+            }
+        }
+
+        // 留言功能
+        const defaultComments = [
+            { author: '大一新生代表', time: '10 分鐘前', text: '真的超需要校園面交！每次在社團買書都要約校外超麻煩，而且運費也不便宜，期待這個平台上線！', replies: [] },
+            { author: '系學會幹部', time: '25 分鐘前', text: '任務網這個功能很棒，很多期中期末需要找人幫忙排版或剪片都找不到管道，如果有限定校內學生認證會安全很多！', replies: [] }
+        ];
+        const savedComments = JSON.parse(localStorage.getItem('campusgo-comments') || 'null');
+        const comments = savedComments || defaultComments;
+
+        function saveComments() {
+            localStorage.setItem('campusgo-comments', JSON.stringify(comments));
+        }
+
+        function renderComments() {
+            const list = document.getElementById('comment-list');
+            list.innerHTML = '';
+            comments.forEach((comment, index) => {
+                const card = document.createElement('div');
+                card.className = 'p-4 bg-warmcard/40 rounded-xl border border-warmborder/50 space-y-2';
+
+                const repliesHtml = (comment.replies || []).map(r => `
+                    <div class="text-xs bg-white/60 p-2.5 rounded border border-warmborder/60 space-y-1 mt-2">
+                        <div class="flex justify-between font-semibold text-warmtext"><span>${escapeHtml(r.author)}</span><span class="text-[10px] text-gray-400">${escapeHtml(r.time)}</span></div>
+                        <p class="text-gray-700 font-serif">${escapeHtml(r.text)}</p>
+                    </div>`).join('');
+
+                card.innerHTML = `
+                    <div class="flex justify-between items-center"><span class="font-semibold text-sm text-warmtext">${escapeHtml(comment.author)}</span><span class="text-xs text-gray-400">${escapeHtml(comment.time)}</span></div>
+                    <p class="text-sm text-gray-700 font-serif">${escapeHtml(comment.text)}</p>
+                    <div class="flex justify-end"><button onclick="toggleReplyBox(${index})" class="text-xs text-warmaccent hover:underline font-medium cursor-pointer">回覆</button></div>
+                    <div id="reply-container-${index}" class="hidden mt-3 pl-4 border-l-2 border-warmaccent/40 space-y-2">
+                        <div class="space-y-2">
+                            <input type="text" id="reply-author-${index}" placeholder="回覆者稱呼" class="w-full px-3 py-1.5 rounded bg-white border border-warmborder text-xs focus:outline-none focus:ring-1 focus:ring-warmaccent">
+                            <textarea id="reply-text-${index}" rows="2" placeholder="寫下你的回覆..." class="w-full px-3 py-1.5 rounded bg-white border border-warmborder text-xs focus:outline-none focus:ring-1 focus:ring-warmaccent"></textarea>
+                            <div class="flex justify-end space-x-2">
+                                <button onclick="toggleReplyBox(${index})" class="px-3 py-1 text-xs text-gray-500 cursor-pointer">取消</button>
+                                <button onclick="submitReply(${index})" class="px-3 py-1 bg-warmaccent text-white text-xs rounded hover:bg-[#a6754d] cursor-pointer">送出回覆</button>
+                            </div>
+                        </div>
+                    </div>
+                    ${repliesHtml}
+                `;
+                list.appendChild(card);
+            });
+            document.getElementById('comment-count').innerText = comments.length;
+        }
+
+        function addComment(event) {
+            event.preventDefault();
+            const authorInput = document.getElementById('comment-author');
+            const textInput = document.getElementById('comment-text');
+            const author = authorInput.value.trim();
+            const text = textInput.value.trim();
+            if (!author || !text) return;
+            comments.unshift({ author, time: '剛剛', text, replies: [] });
+            saveComments();
+            renderComments();
+            authorInput.value = '';
+            textInput.value = '';
+        }
+
+        function toggleReplyBox(index) {
+            const container = document.getElementById(`reply-container-${index}`);
+            container.classList.toggle('hidden');
+        }
+
+        function submitReply(index) {
+            const authorInput = document.getElementById(`reply-author-${index}`);
+            const textInput = document.getElementById(`reply-text-${index}`);
+            const author = authorInput.value.trim();
+            const text = textInput.value.trim();
+            if (!author || !text) { alert('請填寫稱呼與回覆內容'); return; }
+            comments[index].replies = comments[index].replies || [];
+            comments[index].replies.unshift({ author, text, time: '剛剛' });
+            saveComments();
+            renderComments();
+        }
+
+        function escapeHtml(text) {
+            const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
+            return text.replace(/[&<>"']/g, function (m) { return map[m]; });
+        }
+
+        renderComments();
+    </script>
+</body>
+
+</html>
